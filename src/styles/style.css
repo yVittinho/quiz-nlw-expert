@@ -42,7 +42,7 @@ header h1 {
 
 .quiz-item {
   margin: 24px 0 0 0;
-  border: 1px solid #475569;
+  border: 2px solid #475569;
   border-radius: 6px;
 
   overflow: hidden;
@@ -63,8 +63,8 @@ header h1 {
   counter-increment: quiz-item;
   content: counter(quiz-item);
   background-color: #475569;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   font-size: 12px;
   border-radius: 50%;
 
@@ -91,7 +91,7 @@ header h1 {
 
 .quiz-item input {
   all: unset;
-  border: 1px solid #94a3b8;
+  border: 2px solid #94a3b8;
   border-radius: 50%;
   width: 16px;
   height: 16px;
@@ -102,7 +102,7 @@ header h1 {
 }
 
 .quiz-item input:checked {
-  border: 1px solid green;
+  border: 2px solid #f1f1f1;
 }
 
 input:checked:before {
@@ -110,13 +110,14 @@ input:checked:before {
   width: 10px;
   height: 10px;
 
-  background-color: #fff;
+  background-color: #24C6DC;
   border-radius: 50%;
 }
 
 footer {
+  color: #fff;
   width: 100%;
-  background-color: #fff;
+  background-image: linear-gradient(to right, #24C6DC, #514A9D);
   text-align: center;
   padding: 10px;
   position: fixed;
@@ -125,15 +126,15 @@ footer {
 }
 
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
   
 }
 
 body::-webkit-scrollbar-track {
-  background: #909090;
+  background: #1e293B;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #fff;
+  background-color: #e2e8f0;
   border-radius: 20px;
 }
