@@ -139,22 +139,3 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 } 
 
-@media screen and (max-width: 768px) {
-  main {
-    max-width: 480px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  main {
-    max-width: 340px;
-  }
-
-}
-
-@media screen and (max-width: 375px) {
-  main {
-    max-width: 340px;
-    padding: 20px 50px;
-  }
-}
